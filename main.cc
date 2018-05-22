@@ -10,8 +10,6 @@ using namespace std;
 const int maxLevel = 4;
 const int minLevel = 0;
 
-// TODO: implement sequence
-
 // Compare each string in v with the given prefix to see if any string contains the prefix
 vector<string> filter(const vector<string> &v, string prefix) {
   const size_t prefixLength = prefix.length();
